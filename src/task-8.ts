@@ -3,10 +3,7 @@
 
 
 // Функція fetchPosts робить GET-запит до API та повертає список постів.
-
-
-
-import axios from "axios";
+import axios from 'axios';
 
 interface Post{
   id: number;
